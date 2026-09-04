@@ -19,7 +19,7 @@ from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
 BASE_URL = "https://developer.atlassian.com/cloud/acli/reference/commands"
-USER_AGENT = "acli-skill-command-reference/1.0"
+USER_AGENT = "atlassian-cli-command-reference/1.0"
 
 
 def command_to_slug(command: str) -> str:
